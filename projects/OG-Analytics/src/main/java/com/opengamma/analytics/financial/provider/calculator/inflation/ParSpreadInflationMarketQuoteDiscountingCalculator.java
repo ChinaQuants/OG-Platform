@@ -32,7 +32,7 @@ import com.opengamma.util.ArgumentChecker;
  * The notion of "market quote" will depend of each instrument.
  */
 public final class ParSpreadInflationMarketQuoteDiscountingCalculator 
-  extends InstrumentDerivativeVisitorAdapter<ParameterInflationProviderInterface, Double> {
+    extends InstrumentDerivativeVisitorAdapter<ParameterInflationProviderInterface, Double> {
 
   /**
    * The unique instance of the calculator.

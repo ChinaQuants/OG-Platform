@@ -1,5 +1,15 @@
 # OpenGamma Platform
 
+## v2.22
+
+### Bug Fixes
+* Correct error in TIPS yield when first coupon already fixed
+
+### Enhancements
+
+* Improve interpolator performance by removing unnecessary array copies
+* Cache hash code in trade wrapper subclasses to improve performance
+
 ## v2.21
 
 ### Enhancements

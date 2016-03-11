@@ -1,5 +1,14 @@
 # OpenGamma Platform
 
+## v2.26
+
+### Enhancements
+
+* Improvements to ParallelBinarySort, including support for sorting two value arrays at the same time as the key array
+* Performance improvement to InterpolatedDoublesSurface.init()
+* Optimization for empty and immutable forms of FXMatrix
+* Implementation of FastGridInterpolatedDoublesSurface, which is a specialized InterpolatedDoublesSurface that is primarily useful for historical scenario PnL series generation for options where large numbers of volatility surfaces need to be supported.
+
 ## v2.25
 
 ### Enhancements
